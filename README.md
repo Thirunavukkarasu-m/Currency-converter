@@ -23,7 +23,6 @@ Features
 
 ---
 
-📸 Preview
 <img width="371" height="331" alt="image" src="https://github.com/user-attachments/assets/f03c2993-0eb1-4308-a28c-e2f969d98dab" />
 
 
