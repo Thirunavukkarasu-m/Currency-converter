@@ -1,16 +1,54 @@
-# React + Vite
+💱 Currency Converter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive currency converter built using React + Vite.  
+It fetches real-time exchange rates using a public API and supports 100+ global currencies.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+Features
+- Real-time currency conversion
+- Supports 100+ world currencies
+- Swap currency feature
+- Responsive design (mobile + desktop)
+- Clean and modern UI
+- Fast and lightweight (Vite)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+ Tech Stack
+- React.js
+- Vite
+- Axios
+- Exchange Rate API
+- CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+📸 Preview
+<img width="371" height="331" alt="image" src="https://github.com/user-attachments/assets/f03c2993-0eb1-4308-a28c-e2f969d98dab" />
+
+
+
+
+ How to Run
+
+npm install
+npm run dev
+
+
+
+🌍 API Used
+https://api.fxratesapi.com/latest
+
+---
+
+💡 Future Improvements
+- Add country flags
+- Dark mode
+- Live auto conversion
+- Searchable dropdown
+- Animation effects
+
+---
+
+Author
+Thirunavukkarasu M
