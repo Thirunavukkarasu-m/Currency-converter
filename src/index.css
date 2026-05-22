@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MAIN WRAPPER */
+.app {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+/* CARD */
+.card {
+  width: 100%;
+  max-width: 420px;   /* 👈 important for mobile */
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+/* TEXT */
+h1 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+/* INPUT */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+/* DROPDOWN ROW */
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+/* SELECT */
+select {
+  flex: 1;   /* 👈 equal width */
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* SWAP BUTTON */
+.swap {
+  background: #eee;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* BUTTON */
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #4f46e5;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #3730a3;
+}
+
+/* RESULT */
+.result {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+/* 📱 MOBILE RESPONSIVE */
+@media (max-width: 600px) {
+  .card {
+    padding: 15px;
+    border-radius: 12px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  .row {
+    flex-direction: column; /* 👈 stack on mobile */
+  }
+
+  select {
+    width: 100%;
+  }
+
+  .swap {
+    transform: rotate(90deg);
+  }
+}
